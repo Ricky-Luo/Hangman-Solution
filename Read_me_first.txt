@@ -1,6 +1,4 @@
 
-Though my algorithm' accuracy rate is not very ideal, I still want to introduce my working thread.
-
 
 # Working Thread
 Because the first information I can obtain from the API at the first round (0 round) is the length of the word, so I can use this imformation to optimize my algorithm. I calculate the all appeared letters' possilility grouped by word length from the train set you offered, and according the result, I can pick the most possible letter by the length at the first round.
